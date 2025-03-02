@@ -33,4 +33,5 @@ public class Memberservice {
     public Optional<Member> findMemberById(Long id) {
         return memoryMemberRepository.findById(id);
     }
+
 }
