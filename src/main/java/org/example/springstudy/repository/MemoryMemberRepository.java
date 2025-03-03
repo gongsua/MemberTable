@@ -1,6 +1,6 @@
-package repository;
+package org.example.springstudy.repository;
 
-import domain.Member;
+import org.example.springstudy.domain.Member;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

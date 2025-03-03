@@ -1,8 +1,6 @@
 package org.example.springstudy.repository;
 
-import domain.Member;
-import repository.MemberRepository;
-import repository.MemoryMemberRepository;
+import org.example.springstudy.domain.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

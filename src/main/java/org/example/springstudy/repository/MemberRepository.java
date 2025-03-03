@@ -1,5 +1,5 @@
-package repository;
-import domain.Member;
+package org.example.springstudy.repository;
+import org.example.springstudy.domain.Member;
 import java.util.List;
 import java.util.Optional;
 

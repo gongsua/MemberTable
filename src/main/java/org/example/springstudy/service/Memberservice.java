@@ -1,8 +1,8 @@
-package service;
+package org.example.springstudy.service;
 
-import domain.Member;
+import org.example.springstudy.domain.Member;
 import org.springframework.stereotype.Service;
-import repository.MemoryMemberRepository;
+import org.example.springstudy.repository.MemoryMemberRepository;
 
 import java.util.List;
 import java.util.Optional;

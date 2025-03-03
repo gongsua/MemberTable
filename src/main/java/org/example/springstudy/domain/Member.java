@@ -1,4 +1,4 @@
-package domain;
+package org.example.springstudy.domain;
 
 public class Member {
     private String name;

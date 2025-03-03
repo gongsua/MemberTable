@@ -1,9 +1,9 @@
-package controller;
+package org.example.springstudy.controller;
 
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
-import service.Memberservice;
+import org.example.springstudy.service.Memberservice;
 
 @Controller
 @RequiredArgsConstructor

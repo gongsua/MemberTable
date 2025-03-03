@@ -1,10 +1,9 @@
 package service;
 
-import domain.Member;
+import org.example.springstudy.domain.Member;
 import org.assertj.core.api.Assertions;
+import org.example.springstudy.service.Memberservice;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MemberserviceTest {
 
