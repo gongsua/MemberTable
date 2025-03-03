@@ -1,11 +1,14 @@
 package service;
 
 import domain.Member;
+import org.springframework.stereotype.Service;
 import repository.MemoryMemberRepository;
 
 import java.util.List;
 import java.util.Optional;
 
+
+@Service
 public class Memberservice {
     private final MemoryMemberRepository memoryMemberRepository = new MemoryMemberRepository();
 

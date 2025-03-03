@@ -1,9 +1,13 @@
 package repository;
 
 import domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+
+
+@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     //save를 사용하기 때문에 어디에 저장해 둘 것인지 정해놔야한다.
